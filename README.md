@@ -1,59 +1,86 @@
-# Introduction to GitHub
+# Rwandan Football Hub
 
-<!-- ![](https://github.com/kennykamanzi/Antoniocorporation/actions/workflows/0-start-exercise.yml/badge.svg) -->
-![](https://github.com/kennykamanzi/Antoniocorporation/actions/workflows/1-create-a-branch.yml/badge.svg)
-![](https://github.com/kennykamanzi/Antoniocorporation/actions/workflows/2-commit-a-file.yml/badge.svg)
-![](https://github.com/kennykamanzi/Antoniocorporation/actions/workflows/3-open-a-pull-request.yml/badge.svg)
-![](https://github.com/kennykamanzi/Antoniocorporation/actions/workflows/4-merge-your-pull-request.yml/badge.svg)
+A comprehensive web application for Rwandan football news, statistics, and league information across all divisions and age groups.
 
-_Get started using GitHub in less than an hour._
+## Features
 
-## Welcome
+### Leagues & Divisions
+- **Rwandan Premier League** - 16 professional teams
+- **Second Division** - 12 teams competing for promotion
+- **Third Division** - 14 teams in the third tier
+- **Women's First Division** - 10 women's teams
+- **Women's Second Division** - 8 women's teams
+- **Ferwafa U20 League** - 12 under-20 youth teams
+- **U17 League** - 16 under-17 youth teams
 
-People use GitHub to build some of the most advanced technologies in the world. Whether you’re visualizing data or building a new game, there’s a whole community and set of tools on GitHub that can help you do it even better. GitHub Skills’ “Introduction to GitHub” exercise guides you through everything you need to start contributing in less than an hour.
+### Features for Each League
+- Complete league tables with standings
+- Top scorers and assist leaders
+- Recent match results
+- Team information and statistics
+- Responsive design for all devices
 
-- **Who is this for**: New developers, new GitHub users, and students.
-- **What you'll learn**: We'll introduce repositories, branches, commits, and pull requests.
-- **What you'll build**: We'll make a short Markdown file you can use as your [profile README](https://docs.github.com/account-and-profile/setting-up-and-managing-your-github-profile/customizing-your-profile/managing-your-profile-readme).
-- **Prerequisites**: None. This exercise is a great introduction for your first day on GitHub.
-- **How long**: This exercise takes less than one hour to complete.
+### Additional Features
+- News section with latest football updates
+- Statistics overview
+- Modern, intuitive user interface
+- Mobile-friendly design
 
-In this exercise, you will:
+## Getting Started
 
-1. Create a branch
-2. Commit a file
-3. Open a pull request
-4. Merge your pull request
+### Prerequisites
+- Node.js (version 14 or higher)
+- npm or yarn package manager
 
-### How to start this exercise
+### Installation
 
-1. Right-click **Copy Exercise** and open the link in a new tab.
+1. Install dependencies:
+```bash
+npm install
+```
 
-   <a id="copy-exercise">
-      <img src="https://img.shields.io/badge/📠_Copy_Exercise-AAA" height="25pt"/>
-   </a>
+2. Start the development server:
+```bash
+npm run dev
+```
 
-2. In the new tab, most of the prompts will automatically fill in for you.
-   - For owner, choose your personal account or an organization to host the repository.
-   - We recommend creating a public repository, as private repositories will [use Actions minutes](https://docs.github.chttps://github.com/kennykamanzi/Antoniocorporation/billing/managing-billing-for-github-actions/about-billing-for-github-actions).
-   - Scroll down and click the **Create repository** button at the bottom of the form.
+3. Open your browser and navigate to `http://localhost:3000`
 
-3. After your new repository is created, wait about 20 seconds for the exercise to be prepared and buttons updated. You will continue working from your copy of the exercise.
-   - The **Copy Exercise** button will deactivate, changing to gray.
-   - The **Start Exercise** button will activate, changing to green.
-   - You will likely need to refresh the page.
+### Building for Production
 
-4. Click **Start Exercise**. Follow the step-by-step instructions and feedback will be provided as you progress.
+```bash
+npm run build
+```
 
-   <a id="start-exercise" href="https://github.com/kennykamanzi/Antoniocorporation/issues/1">
-      <img src="https://img.shields.io/badge/🚀_Start_Exercise-008000" height="25pt"/>
-   </a>
+The built files will be in the `dist` directory.
 
-> [!IMPORTANT]
-> The **Start Exercise** button will activate after copying the repository. You will probably need to refresh the page.
+## Technology Stack
 
----
+- **React 18** - Frontend framework
+- **React Router** - Client-side routing
+- **Vite** - Build tool and development server
+- **Lucide React** - Icon library
+- **CSS3** - Styling with modern features
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/introduction-to-github) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+## Project Structure
 
-&copy; 2024 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+```
+src/
+├── pages/           # Individual league pages
+├── App.jsx         # Main application component
+├── main.jsx        # Application entry point
+└── index.css       # Global styles
+```
+
+## Contributing
+
+This is a demo application showcasing Rwandan football leagues. Feel free to extend it with additional features like:
+- Player profiles
+- Match schedules
+- Live scores
+- Team statistics
+- Historical data
+
+## License
+
+This project is for demonstration purposes.
